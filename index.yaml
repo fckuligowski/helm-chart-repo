@@ -3,7 +3,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.0
-    created: 2019-11-30T13:35:41.228248467Z
+    created: 2019-11-30T13:56:15.630737012Z
     description: Frank customized stable/wordpress
     digest: 8161efd1c0fa3c24c423445df84cf2ddede884f4d7a0fee3ecfbe0e2ddf9246d
     engine: gotpl
@@ -26,4 +26,29 @@ entries:
     urls:
     - wordpress-8.0.1.tgz
     version: 8.0.1
-generated: 2019-11-30T13:35:41.225366301Z
+  - apiVersion: v1
+    appVersion: 5.3.0
+    created: 2019-11-30T13:56:15.627077768Z
+    description: Frank customized stable/wordpress without PersistentVolumeClaim
+    digest: ea8049ae81f7c21a4d79c4dd88fd1e8f4159d73dcc03ef9e8cf8c97402c8171d
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-8.0.1.01.tgz
+    version: 8.0.1.01
+generated: 2019-11-30T13:56:15.625143475Z
